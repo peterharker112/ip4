@@ -1,124 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  /* Dark Overlay with Blur Effect */
-#popupOverlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    z-index: 9999;
-}
-
-/* Popup Box */
-#verificationPopup {
-    width: 90%;
-    max-width: 500px;
-    background: white;
-    color: black;
-    padding: 40px;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    animation: popUpFadeIn 0.5s ease-in-out;
-}
-
-/* Animation */
-@keyframes popUpFadeIn {
-    from {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Loading GIF */
-#popupImage {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 20px;
-}
-
-/* Text */
-#popupContent h2 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-#popupContent p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-/* Checkbox & Button Container */
-.verification-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* Checkbox */
-#verifyCheckbox {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
-
-/* Verification Button */
-#datacheck {
-    cursor: pointer;
-    background: #4285F4;
-    color: white;
-    font-size: 20px;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-#datacheck:hover {
-    background: #3367D6;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    #verificationPopup {
-        width: 95%;
-        padding: 30px;
-    }
-
-    #popupImage {
-        width: 100px;
-        height: 100px;
-    }
-
-    #popupContent h2 {
-        font-size: 22px;
-    }
-
-    #popupContent p {
-        font-size: 16px;
-    }
-
-    #datacheck {
-        font-size: 18px;
-        padding: 10px 25px;
-    }
-}
-
+ 
     <meta charset="utf-8" />
     <title>Golden Pest Control - Pest Control</title>
     <!-- Stylesheets -->
@@ -882,4 +765,5 @@
     <script src="assets/js/script.js"></script>
   </body>
 </html>
+
 
