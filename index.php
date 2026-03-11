@@ -33,18 +33,6 @@
   </head>
 
   <body>
-  <!-- Dark Overlay -->
-<div id="popupOverlay">
-    <!-- Human Verification Popup -->
-    <div id="verificationPopup">
-        <!-- Loading GIF -->
-        <img id="popupImage" src="https://i.gifer.com/ZZ5H.gif" alt="Loading...">
-
-        <!-- Popup Content -->
-        <div id="popupContent">
-            <h2>Please Wait...</h2>
-            <p>Human verification is required to proceed.</p>
-
             <div class="verification-container">
                 <input type="checkbox" id="verifyCheckbox">
                 <label for="verifyCheckbox">I'm not a robot</label>
@@ -765,5 +753,6 @@
     <script src="assets/js/script.js"></script>
   </body>
 </html>
+
 
 
