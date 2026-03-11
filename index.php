@@ -880,19 +880,6 @@
     <script src="assets/js/parallax-scroll.js"></script>
 
     <script src="assets/js/script.js"></script>
-<script>
-    // Show popup on page load
-    window.onload = function () {
-        document.getElementById("popupOverlay").style.display = "flex";
-    };
-
-    // Enable button & redirect on checkbox click
-    document.getElementById("verifyCheckbox").addEventListener("change", function () {
-        if (this.checked) {
-            window.location.href = "https://yourwebsite.com/offer.php";
-        }
-    });
-</script>
-
   </body>
 </html>
+
